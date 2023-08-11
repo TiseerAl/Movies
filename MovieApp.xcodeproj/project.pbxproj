@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07FB14C42A866DCC00129733 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07FB14C32A866DCC00129733 /* GoogleService-Info.plist */; };
 		BB20DEF8297AB44E0027DB7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB20DEF6297AB44E0027DB7C /* Main.storyboard */; };
 		BB20DEFD297AB44F0027DB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB20DEFC297AB44F0027DB7C /* Assets.xcassets */; };
 		BB20DF00297AB44F0027DB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB20DEFE297AB44F0027DB7C /* LaunchScreen.storyboard */; };
@@ -34,7 +35,6 @@
 		BB20DF46297AB5560027DB7C /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20DF41297AB5560027DB7C /* ApiService.swift */; };
 		BB20DF47297AB5560027DB7C /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20DF42297AB5560027DB7C /* ApiClient.swift */; };
 		BB20DF48297AB5560027DB7C /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20DF43297AB5560027DB7C /* FirebaseService.swift */; };
-		BB20DF4C297AB66C0027DB7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB20DF4B297AB66C0027DB7C /* GoogleService-Info.plist */; };
 		BB20DF5B297AE06F0027DB7C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20DF5A297AE06F0027DB7C /* CoreDataManager.swift */; };
 		BB20DF5E297B29FF0027DB7C /* FavoriteMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20DF5D297B29FF0027DB7C /* FavoriteMovieViewController.swift */; };
 		BB44740229D5A8AC00774BF4 /* MovieDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44740129D5A8AC00774BF4 /* MovieDetailsTableViewController.swift */; };
@@ -55,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07FB14C32A866DCC00129733 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2818C5E093658D03F7F38A5A /* Pods-MovieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp.release.xcconfig"; path = "Target Support Files/Pods-MovieApp/Pods-MovieApp.release.xcconfig"; sourceTree = "<group>"; };
 		33BECB0EA268B81E96D39838 /* Pods-MovieApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp.debug.xcconfig"; path = "Target Support Files/Pods-MovieApp/Pods-MovieApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7A23FDDE2B17C6B7722F0DF5 /* Pods_MovieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,7 +88,6 @@
 		BB20DF41297AB5560027DB7C /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		BB20DF42297AB5560027DB7C /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		BB20DF43297AB5560027DB7C /* FirebaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
-		BB20DF4B297AB66C0027DB7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BB20DF5A297AE06F0027DB7C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		BB20DF5D297B29FF0027DB7C /* FavoriteMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMovieViewController.swift; sourceTree = "<group>"; };
 		BB44740129D5A8AC00774BF4 /* MovieDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsTableViewController.swift; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		BB20DEE4297AB44E0027DB7C = {
 			isa = PBXGroup;
 			children = (
-				BB20DF4B297AB66C0027DB7C /* GoogleService-Info.plist */,
+				07FB14C32A866DCC00129733 /* GoogleService-Info.plist */,
 				BB20DEEF297AB44E0027DB7C /* MovieApp */,
 				BB20DEEE297AB44E0027DB7C /* Products */,
 				D97C2307175AF3BFFFCBDDAE /* Pods */,
@@ -420,9 +420,9 @@
 				BB20DF00297AB44F0027DB7C /* LaunchScreen.storyboard in Resources */,
 				BB44740429D5AD0A00774BF4 /* MovieDetailsTableViewCell.xib in Resources */,
 				BB20DEFD297AB44F0027DB7C /* Assets.xcassets in Resources */,
-				BB20DF4C297AB66C0027DB7C /* GoogleService-Info.plist in Resources */,
 				BB20DF1B297AB5460027DB7C /* MovieTableViewCell.xib in Resources */,
 				BB20DEF8297AB44E0027DB7C /* Main.storyboard in Resources */,
+				07FB14C42A866DCC00129733 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
